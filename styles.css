@@ -1,20 +1,50 @@
-p{
-    background: linear-gradient(
-        rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.3));
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: white;
-    box-sizing: border-box;
-    transform: translate(32%);
-    position: relative;
-    padding: 1px;
-    border-radius: 1px;
-    width: 60%;
-
-    
+.button {
+  background-color: none; 
+  border: none;
+  color: white;
+  padding: 1px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px 10px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  border-radius: 0px;
+  
 }
+   
+  .projects{
+       background-color: rgba(255, 255, 255, 0.2);
+       border-radius: 0px;
+  }
+
+  .projects:hover{
+       background-color: rgba(140, 118, 118, 0.3);
+       border-radius: 28px;
+  }
+
+  .social{
+       background-color: rgba(255, 255, 255, 0.2);
+       border-radius: 0px;
+  }
+
+  .social:hover{
+       background-color: rgba(0, 255, 255, 0.3);
+       border-radius: 28px;
+  }
+  .tools{
+       background-color: rgba(255, 255, 255, 0.2);
+       border-radius: 0px;
+  }
+  .tools:hover{
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 25px;
+}
+  
+b{
+    color:black;
+}
+
 h1{
    color: #000000;
    text-align: center;
@@ -24,22 +54,37 @@ h1{
 h2{
     color: black;
     text-align: left;
-
+    font-size: 22px;
 }
 h3{
     color: #00fff2;
     text-align: left;
 }
 h4{
-    color: black;
+    color: rgb(255, 252, 59);
     text-align:center;
     line-height: 0px;
 }
 h5{
-    color:rgb(255, 29, 255);
-    text-align: start;
+    color:rgb(250, 0, 0);
+    text-align: center;
     font-size: 15px;
     line-height: 1px;
+
+}
+footer{
+    border-style: solid;
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    height: 100px;
+    border-style: hidden;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1px;
+    border-spacing: 20px;
+    margin: auto;
 }
 html {
     background-color: #00f7ff;
@@ -50,4 +95,4 @@ html {
     -o-background-size: cover;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-    }
+}
