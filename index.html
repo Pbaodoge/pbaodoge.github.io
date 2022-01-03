@@ -1,42 +1,104 @@
 <!DOCTYPE html>
 <html>
     <head>
-              <title>Pbaodoge</title>
+              <title>Pbaodoge | Siesta</title>
               <meta charset = "UTF-8">
-              <meta name = "description" content = "A website from a young Programmer, Pbaodoge!">
-              <meta name = "Pbaodoge" content = "My name">
+              <meta name = "Pbaodoge" content = "A website from a young Programmer, Pbaodoge!">
               <meta content="#00FFFF" data-react-helmet="true" name="theme-color">
               <link rel="stylesheet" href="styles.css">
-
+              <style>
+                    #border{
+                      border-style: solid;
+                      background-color: rgba(255, 255, 255, 0.5);
+                      border-radius: 10px;
+                      padding: 10px;
+                      width: 400px;
+                      height: 300px;
+                      border-style: hidden;
+                      border-radius: 10px;
+                      text-align: center;
+                      border-spacing: 20px;
+                    }
+                    #introduction{
+                      border-style: solid;
+                      background-color: rgba(255, 152, 152, 0.5);
+                      border-radius: 15px;
+                      border: 0px;
+                      box-sizing: border-box;
+                      padding: 1px;
+                      width: 1000px;
+                      height: 150px;
+                      position: relative;
+                      margin: auto;
+                      text-align: center;
+                    }
+                    #tools{
+                      border-style: solid;
+                      background-color: rgba(255, 255, 255, 0.5);
+                      border-radius: 10px;
+                      padding: 10px;
+                      width: 650px;
+                      height: 200px;
+                      border-style: hidden;
+                      border-radius: 10px;
+                      text-align: center;
+                      margin: auto;
+                      margin-bottom: 20px;
+                      margin-top: 20px;
+                    }
+              </style>
 
     </head>
 
      <body>
         <h1>Hi there!</h1>
          
-
-              <b><p>I'm Phan Bảo, also known as Pbaodoge on social media. </p>
-              <p>Im a young programmer and I have been around tech and coding stuff for 6 months.</p>
-              <p>I usually make projects with programming languages and also with Arduinos development board </p> 
-              <p>I usually code in C++, JavaScript, HTML, CSS. And sometimes Pascal :P</p></b>
-
-          <h2>My Projects : </h2>
-          <ol>
-
-            <a href = "https://github.com/Pbaodoge/pbaodoge.github.io"><li><h5>This website</h5></li></a>
-            <a href = "https://github.com/Pbaodoge/Pumpkins-light-ino"><li><h5>RGB led dimmer with Arduino in C++ (Open-source)</h5></li></a>
-            <li><h5>Another project till next year(project n.3)</h5></li>
+              
+              <b><p id = "introduction">I'm Phan Bảo, also known as Pbaodoge on social media. 
+              I'm a young programmer and I have been around tech and coding stuff for 6 months.
+              I usually make projects with programming languages and also with Arduinos development board.  
+              I usually code in C++, JavaScript, Python, HTML, CSS. And sometimes Pascal :P
+              You can find all informations about me here and also everything about me, which could be useful for you!</p></b>
+              <ul id = "tools">
+                  <h2 style="color: rgb(105, 255, 100);">Programming Languages : </h2>
+                  <button class = "button tools"><a href = "http://www.cplusplus.org/"><li><h5>C++<h5></li></a></button>
+                  <button class = "button tools"><a href = "https://python.org"><li><h5>Python</h5></li></a></button>
+                  <button class = "button tools"><a href = "https://www.arduino.cc"><li><h5>Arduino</h5></li></a></button>
+                  <button class = "button tools"><a href = "https://javascript.com"><li><h5>JavaScript</h5></li></a></button>
+                  <button class = "button tools"><a href = "https://en.wikipedia.org/wiki/Pascal"><li><h5>Pascal</h5></li></a></button>
+                  <button class = "button tools"><a href = "https://en.wikipedia.org/wiki/HTML"><li><h5>HTML (HyperText Markup Language) </h5></li></a></button>
+                  <button class = "button tools"><a href = "https://en.wikipedia.org/wiki/CSS"><li><h5>CSS (Cascading Style Sheets) </h5></li></a></button>
+            </ul>    
+          <ul id = "tools">
+                <h2 style="color: rgb(105, 255, 100);">Tools that I used for developing : </h2>
+                <button class = "button tools"><a href = "https://code.visualstudio.com"><li><h5>Visual Studio Code<h5></li></a></button>
+                <button class = "button tools"><a href = "https://unity.com"><li><h5>Unity (For Game development)</h5></li></a></button>
+                <button class = "button tools"><a href = "https://www.arduino.cc/en/software"><li><h5>Arduino IDE</h5></li></a></button>
+                <button class = "button tools"><a href = "https://github.com"><li><h5>Github</h5></li></a></button>
+                <button class = "button tools"><a href = "https://nodejs.org"><li><h5>Node.js</h5></li></a></button>
+                <button class = "button tools"><a href = "https://www.raspberrypi.com"><li><h5>Raspberry Pi</h5></li></a></button>
+          </ul>
+          <ol id = "border">
+            <h2 style="color: rgb(105, 255, 100);">My Projects : </h2>
+            <button class = "button projects"><a href = "https://github.com/Pbaodoge/pbaodoge.github.io"><li><h5>This website</h5></li></a></button>
+            <button class = "button projects"><a href = "https://github.com/Pbaodoge/Pumpkins-light-ino"><li><h5>RGB led dimmer with Arduino in C++ (Open-source)</h5></li></a></button>
+            <button class = "button projects"><li><h5>Project 3 (comming soon)</h5></li></button>
 
           </ol>
-          <h2>Contact me at : </h2>
-         <ul>
-               <a href = "https://discordapp.com/users/826651517960454144"><li><h5>Discord username: Pbaodoge#4418</h5></li></a>
-               <a href = "https://www.reddit.com/user/Pbaodoge"><li><h5>reddit username: Pbaodoge</h5></li></a>
-               <a href = "https://github.com/Pbaodoge"><li><h5>Github: Pbaodoge</h5></li></a>
+          
+         <ul id = "border">
+            <h2 style="color: rgb(105, 255, 100);">Social media links : </h2>
+            <button class = "button social"><a href = "https://discordapp.com/users/826651517960454144"><li><h5>Connected to Discord : Pbaodoge#4418</h5></li></a></button>
+            <button class = "button social"><a href = "https://www.reddit.com/user/Pbaodoge"><li><h5>Connected to Reddit : Pbaodoge</h5></li></a></button>
+            <button class = "button social"><a href = "https://github.com/Pbaodoge"><li><h5>Connected to Github: Pbaodoge</h5></li></a></button>
             
          </ul>
-
-               <h5>Visit my community server if you have any concerns or problems : <a href = "https://discord.gg/9y7Uc4kxgh">https://discord.gg/9y7Uc4kxgh</a></h5>
+         <footer>
+            <h4 style="color: white;">Made by Pbaodoge / Siesta - 2021-2022 | Version : v1.5</h4>
+            <a href = "https://pages.github.com/"><h5 style="color: white;">Powered by Github Pages</h5></a>
+            <a href = "https://discord.gg/9y7Uc4kxgh"><h5 style="color: white;">Take a visit my community server!</h5></a>
+         </footer>
+               
 
         
     </body>
