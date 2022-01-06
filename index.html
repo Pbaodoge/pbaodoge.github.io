@@ -29,17 +29,18 @@
                       box-sizing: border-box;
                       padding: 20px;
                       width: 1000px;
-                      height: 150px;
+                      height: 200px;
                       position: relative;
                       margin: auto;
                       text-align: center;
+                      font-size: 20px;
                     }
                     #tools{
                       border-style: solid;
                       background-color: rgba(255, 255, 255, 0.5);
                       border-radius: 10px;
                       padding: 10px;
-                      width: 800px;
+                      width: 900px;
                       height: 200px;
                       border-style: hidden;
                       border-radius: 10px;
@@ -54,15 +55,18 @@
 
      <body>
         <h1>Hi there!</h1>
-         
-              
+
               <b><p id = "introduction" >I'm Phan Bảo, also known as Pbaodoge on social media. 
               I'm a young programmer and I have been around tech and coding stuff for 6 months.
               I usually make projects with programming languages and also with Arduinos development board.  
               I usually code in C++, JavaScript, Python, HTML, CSS. And sometimes Pascal :P
-              You can find all informations about me here and also everything about me, which could be useful for you!</p></b>
-              <ul id ="tools" style = "color: rgb(0, 68, 255);">
-                <h2 style="color: rgb(105, 255, 100);">General Information :</h2>
+              You can find all informations about me here and also everything about me, which could be useful for you!
+            </p></b>
+              
+              <ul id ="tools" style = "color: rgb(0, 68, 255); width:600px; height: 200px;">
+                <div class = "typetext">
+                <h2>General Information</h2>
+                </div>
                 <li><h4 style = "color: rgb(0, 60, 255);">Name : Phan Bảo</h4></li>
                 <li><h4 style = "color: rgb(0, 60, 255);">Nickname : Pbaodoge or you can call me Siesta!</h4></li>
                 <li><h4 style = "color: rgb(0, 60, 255);">Age : 13</h4></li>
@@ -79,18 +83,18 @@
                   <button class = "button tools"><a href = "https://en.wikipedia.org/wiki/HTML" target="_blank"><li><img src = "./img/htmllogo.png" alt = "HTML logo" width = "60" height = "60"><h5>HTML</h5></li></a></button>
                   <button class = "button tools"><a href = "https://en.wikipedia.org/wiki/CSS" target="_blank"><li><img src = "./img/css.png" alt = "CSS logo" width = "60" height = "60"><h5>CSS</h5></li></a></button>
             </ul>    
-          <ul id = "tools">
+          <ul id = "tools" style = "width: 1300px; height: 200px;">
                 <h2 style="color: rgb(105, 255, 100);">Tools that I used : </h2>
-                <button class = "button social"><li><a href = "https://code.visualstudio.com" target="_blank"><h5>Visual Studio Code</h5></a></h5></li></button>
-                <button class = "button social"><li><a href = "https://unity.com" target="_blank"><h5>Unity(For Game Development)</h5></a></h5></li></button>
-                <button class = "button social"><li><a href = "https://www.arduino.cc/en/software" target="_blank"><h5>Arduino IDE</h5></a></h5></li></button>
-                <button class = "button social"><li><a href = "https://github.com" target="_blank"><h5>Github</h5></a></h5></li></button>
-                <button class = "button social"><li><a href = "https://nodejs.org" target="_blank"><h5>Node.js</h5></a></h5></li></button>
-                <button class = "button social"><li><a href = "https://www.raspberrypi.com" target="_blank"><h5>Raspberry Pi</h5></a></h5></li></button>
+                <img src = "./img/vscode.png" alt = "VS code logo" width = "40" height = "40"> <button class = "button tools"><li><a href = "https://code.visualstudio.com" target="_blank"><h5> Visual Studio Code </h5></a></h5></li></button>
+                <img src = "./img/unity.png" alt = "Unity logo" width = "40" height = "40"><button class = "button tools"><li><a href = "https://unity.com" target="_blank"><h5> Unity(For Game Development) </h5></a></h5></li></button>
+                <img src = "./img/arduinoide.png" alt = "Arduino IDE logo" width = "40" height = "40"><button class = "button tools"><li><a href = "https://www.arduino.cc/en/software" target="_blank"><h5> Arduino IDE </h5></a></h5></li></button>
+                <img src = "./img/github.png" alt = "Github logo" width = "40" height = "40"><button class = "button tools"><li><a href = "https://github.com" target="_blank"><h5> Github </h5></a></h5></li></button>
+                <img src = "./img/nodejs.svg" alt = "NodeJS logo" width = "40" height = "40"><button class = "button tools"><li><a href = "https://nodejs.org" target="_blank"><h5> Node.js </h5></a></h5></li></button>
+                <img src = "./img/rpi.png" alt = "NodeJS logo" width = "40" height = "47"><button class = "button tools"><li><a href = "https://www.raspberrypi.com" target="_blank"><h5> Raspberry Pi </h5></a></h5></li></button>
 
           </ul>
           <ol id = "border">
-            <h2 style="color: rgb(105, 255, 100);">My Projects : </h2>
+            <h2 style="color: rgb(105, 255, 100);">Projects : </h2>
             <button class = "button social"><li><h5><a href = "https://github.com/Pbaodoge/pbaodoge.github.io" target="_blank"><h5>This Website</h5></a></li></button>
             <button class = "button social"><li><h5><a href = "https://github.com/Pbaodoge/RGB-Arduino" target="_blank"><h5>RGB led projects with Arduino (Open-source)</h5></a></li></button>
             <button class = "button projects"><li><h5>Project 3 (coming soon)</h5></li></button>
@@ -105,9 +109,11 @@
          </ul>
 
          <footer>
-            <h4 style="color: white;">Made by Pbaodoge / Siesta - 2021 - 2022 | Version : v1.7</h4>
-            <h4 style="margin-top: 1.5rem;">Powered by <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer" style="color: white;"><abbr title="Opens in a new tab." style="text-decoration: none;">Github Pages, </abbr></a><a href="https://freenom.com" target="_blank" rel="noopener noreferrer" style="color: white;"><abbr title="Opens in a new tab." style="text-decoration: none;"> Freenom</abbr></a> and <a href="https://cloudflare.com" target="_blank" rel="noopener noreferrer" style="color: white;"><abbr title="Opens in a new tab." style="text-decoration: none;">Cloudflare</abbr></a></h4>
-            <a href = "https://discord.gg/9y7Uc4kxgh"><h5 style="color: white;">Find me at my Discord community!</h5></a>
+           
+            <h4 class="footer-color">Made by Pbaodoge / Siesta - 2021 - 2022 | Version : v2.0</h4>
+            <h4 class="footer-color" style="margin-top: 1.5rem;">This website is powered by <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer" style="color: white;"><abbr title="Opens in a new tab." style="text-decoration: none;">Github Pages, </abbr></a><a href="https://freenom.com" target="_blank" rel="noopener noreferrer" style="color: white;"><abbr title="Opens in a new tab." style="text-decoration: none;"> Freenom</abbr></a> and <a href="https://cloudflare.com" target="_blank" rel="noopener noreferrer" style="color: white;"><abbr title="Opens in a new tab." style="text-decoration: none;">Cloudflare</abbr></a></h4>
+            <a href = "https://discord.gg/9y7Uc4kxgh"><h5 class="footer-color">Find me at my Discord community!</h5></a>
+               
          </footer>
                
 

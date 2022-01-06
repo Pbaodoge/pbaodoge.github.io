@@ -40,7 +40,67 @@
       background-color: rgba(255, 0, 0, 0.3);
       border-radius: 25px;
   }
-    
+  .typetext h2 {
+    overflow: hidden; 
+    border-right: .25em solid white;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.07px;
+    font-size: 22px;
+    text-align: left;
+    animation: 
+      typing 1.4s steps(19) 1s forwards,
+      blink-caret 0.75s step-end infinite;
+  }
+  /*not using this at the moment*/
+  .typetext h1{
+    overflow: hidden; 
+    border-right: .2em solid white;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.07px;
+    animation: 
+      typinghi 1.4s steps(9) 1s forwards,
+      blink-caret 0.75s step-end infinite;
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from { 
+        width: 0; 
+    }
+    to {
+        width: 35%;
+    }
+  }
+  @keyframes typinghi {
+    from { 
+        width: 0; 
+    }
+    to {
+        width: 25%;
+    }
+  }
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 255, 255); }
+  }
+  .footer-color{
+    animation-name: ani;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes ani{
+      0% {color: rgb(255, 0, 255);}
+      20%  {color: rgb(255, 0, 0);}
+      40%  {color: rgb(255, 238, 0);}
+      60% {color: rgb(37, 255, 8);}
+      80% {color: rgb(0, 255, 255);}
+      100% {color: rgb(0, 4, 255);}
+  }
   b{
       color:black;
   }
@@ -69,15 +129,15 @@
       color:rgb(250, 0, 0);
       text-align: center;
       font-size: 15px;
-      line-height: 1px;
-  
+      line-height: 5px;
+      
   }
   footer{
       border-style: solid;
       background-color: rgb(27, 27, 27);
       border-radius: 10px;
       padding: 10px;
-      width: 700px;
+      width: 800px;
       height: 100px;
       border-style: hidden;
       border-radius: 10px;
