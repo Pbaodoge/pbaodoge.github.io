@@ -1,7 +1,6 @@
 .button {
     background-color: none; 
     border: none;
-    color: white;
     padding: 1px 5px;
     text-align: center;
     text-decoration: none;
@@ -15,7 +14,7 @@
      
     .projects{
          background-color: rgba(255, 255, 255, 0.2);
-         border-radius: 0px;
+         border-radius: 5px;
     }
   
     .projects:hover{
@@ -25,7 +24,7 @@
   
     .social{
          background-color: rgba(255, 255, 255, 0.2);
-         border-radius: 0px;
+         border-radius: 5px;
     }
   
     .social:hover{
@@ -34,7 +33,7 @@
     }
     .tools{
          background-color: rgba(255, 255, 255, 0.2);
-         border-radius: 0px;
+         border-radius: 5px;
     }
     .tools:hover{
       background-color: rgba(255, 0, 0, 0.3);
@@ -53,7 +52,7 @@
       typing 1.4s steps(19) 1s forwards,
       blink-caret 0.75s step-end infinite;
   }
-  /*not using this at the moment*/
+  /*not using this at the moment
   .typetext h1{
     overflow: hidden; 
     border-right: .2em solid white;
@@ -65,6 +64,7 @@
       typinghi 1.4s steps(9) 1s forwards,
       blink-caret 0.75s step-end infinite;
   }
+  */
   /* The typing effect */
   @keyframes typing {
     from { 
@@ -123,18 +123,18 @@
   h4{
       color: rgb(255, 255, 255);
       text-align:center;
-      line-height: 0px;
+      line-height: 5px;
   }
   h5{
       color:rgb(250, 0, 0);
       text-align: center;
       font-size: 15px;
-      line-height: 5px;
+      line-height: 20px;
       
   }
   footer{
       border-style: solid;
-      background-color: rgb(27, 27, 27);
+      background-color: rgba(27, 27, 27, 0.65);
       border-radius: 10px;
       padding: 10px;
       width: 800px;
