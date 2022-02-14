@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
     <head>
               <title>Pbaodoge | Siesta</title>
               <meta charset = "UTF-8">
@@ -8,19 +9,27 @@
               <meta name = "description" content = "Hi there! This is my official website from a young programmer, Pbaodoge. Check out my website to find more informations about me.">
               <meta content = "#00FFFF" data-react-helmet="true" name="theme-color">
               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <meta name="referrer" content="no-referrer">
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+              <!--CSS-->
               <link rel="stylesheet" href="styles.css">
+              <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+
+              <!--Font Awesome Icon Kit-->
+              <script src="https://kit.fontawesome.com/9a93ce0707.js" crossorigin="anonymous"></script>
               <style>
                     #border{
                       border-style: solid;
                       background-color: rgba(255, 255, 255, 0.5);
                       border-radius: 10px;
-                      padding: 10px;
                       width: 700px;
                       height: 250px;
                       border-style: hidden;
                       border-radius: 10px;
                       text-align: center;
                       border-spacing: 20px;
+
                     }
                     #introduction{
                       border-style: solid;
@@ -41,7 +50,7 @@
                       background-color: rgba(255, 255, 255, 0.6);
                       border-radius: 10px;
                       padding: 10px;
-                      width: 700px;
+                      width: 800px;
                       height: 200px;
                       border-style: hidden;
                       border-radius: 10px;
@@ -64,13 +73,15 @@
     </head>
 
      <body>
-        <h1>Hi there!</h1>
+
+        <h1 style = "text-align: center;">Hi there!</h1>
 
               <b><p id = "introduction" >I'm Phan Bảo, also known as Pbaodoge on social media. 
               I'm a young programmer and I have been around tech and coding stuff for 6 months.
               I usually make projects with programming languages and also with Arduinos development board.  
               You can find all informations about me here and also everything about me, which could be useful for you!
             </p></b>
+            
             <div class = "text">
               <ul id ="tools" style = "color: rgb(0, 68, 255); width:600px; height: 200px;">
                     <div class = "typetext"><h2>General Information</h2></div>
@@ -82,6 +93,7 @@
                   
               </ul>
 
+            <div style = "font-family: 'JetBrains Mono';">  
               <ul id = "tools">
                   <h2 style="color: rgb(105, 255, 100);">Programming Languages : </h2>
                     
@@ -95,7 +107,7 @@
                     
                 </ul>    
                   
-          <ul id = "tools" style = "width: 1100px; height: 160px;">
+          <ul id = "tools" style = "width: 1200px; height: 200px;">
                 <h2 style="color: rgb(105, 255, 100);">Tools that I used : </h2>
                 <img src = "./img/vscode.png" alt = "VS code logo" width = "40" height = "40"> <button class = "button tools"><li><a href = "https://code.visualstudio.com" target="_blank"><h5> Visual Studio Code </h5></a></h5></li></button>
                 <img src = "./img/unity.png" alt = "Unity logo" width = "40" height = "40"><button class = "button tools"><li><a href = "https://unity.com" target="_blank"><h5> Unity(For Game Development) </h5></a></h5></li></button>
@@ -105,21 +117,23 @@
                 <img src = "./img/rpi.png" alt = "NodeJS logo" width = "40" height = "47"><button class = "button tools"><li><a href = "https://www.raspberrypi.com" target="_blank"><h5> Raspberry Pi </h5></a></h5></li></button>
 
           </ul>
+        
           <ol id = "border">
-            <h2 style="color: rgb(105, 255, 100);">Projects : </h2>
+            <h2 style="color: rgb(105, 255, 100); padding-top: 3%;">Projects : </h2>
             <button class = "button social"><li><h5><a href = "https://github.com/Pbaodoge/pbaodoge.github.io" target="_blank"><h5>This Website</h5></a></li></button>
             <button class = "button social"><li><h5><a href = "https://github.com/Pbaodoge/RGB-Arduino" target="_blank"><h5>RGB led projects with Arduino (Open-source)</h5></a></li></button>
-            <button class = "button projects"><li><h5>Arduino Exchange Website Project (arduinoexchange.ml) coming soon</h5></li></button>
+            <button class = "button social"><li><h5><a href = "https://arduinoexchange.xyz" target = "_blank">Arduino Exchange Website Project</a></h5></li></button>
 
           </ol>
-         <ul id = "border">
+        
+         <ul id = "border" style = "height: 400px; padding-top: 1%;">
             <h2 style="color: rgb(105, 255, 100);">Social media links : </h2>
-            <button class = "button social"><li><a href = "https://discordapp.com/users/826651517960454144" target="_blank"><h5>Connected to Discord : Pbaodoge#4418</h5></a></h5></li></button>
-            <button class = "button social"><li><a href = "https://www.reddit.com/user/Pbaodoge" target="_blank"><h5>Connected to Reddit : Pbaodoge</h5></a></li></button>
-            <button class = "button social"><li><h5><a href = "https://github.com/Pbaodoge" target="_blank"><h5>Connected to Github : Pbaodoge</h5></a></li></button>
+            <br><button class = "button social"><li><i class="fab fa-twitter"></i><a href = "https://discordapp.com/users/826651517960454144" target="_blank"><h5>Connected to Discord : Pbaodoge#4418</h5></a></h5></li></button>
+            <br><button class = "button social"><li><i class="fab fa-reddit"></i><a href = "https://www.reddit.com/user/Pbaodoge" target="_blank"><h5>Connected to Reddit : Pbaodoge</h5></a></li></button>
+            <br><button class = "button social"><li><i class="fab fa-discord"></i><h5><a href = "https://github.com/Pbaodoge" target="_blank"><h5>Connected to Github : Pbaodoge</h5></a></li></button>
     
          </ul>
-
+      </div>
                  <footer>
            
                       <h4 class="footer-color">Made by Pbaodoge / Siesta - 2021 - 2022 | Version : v2.2</h4>
@@ -130,6 +144,10 @@
                
               
             </div>
+
+            <!--Prevent using http protocol-->
+            <script src = "functions.js" type = "text/javascript" onload = "preventhttp()"></script>
+
     </body>
 
 </html>
