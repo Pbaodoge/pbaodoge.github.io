@@ -145,6 +145,7 @@
       line-height: 1px;
       border-spacing: 20px;
       margin: auto;
+      text-decoration: none;
   }
   html {
       background-color: #00f7ff;
@@ -159,4 +160,8 @@
   }
 i{
   font-family: 'JetBrains Mono';
+}
+::selection{
+  color:cyan;
+  background-color: #c5c5c507;
 }
