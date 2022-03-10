@@ -206,3 +206,80 @@ li{
       background: rgba(0, 230, 230, 0.9); 
     }
     /*--------------------------END OF SCROLL BAR-------------------*/
+
+
+
+
+
+
+
+    /*MEDIA QUERY FOR NON-DESKTOP DEVICE*/
+    @media only screen and (max-width: 700px){
+      li{
+          font-size: 18px;
+      }
+
+      p{
+        font-size: 16px !important;
+      }
+
+      b{
+        color:black;
+    }
+    
+    h1{
+       color: #000000;
+       text-align: center !important;
+       font-size: 23px;
+       
+    }
+    h2{
+        color: black;
+        text-align: center !important;
+        font-size: 15px !important;
+    }
+    h3{
+        color: #00fff2;
+        text-align: left;
+    }
+    h4{
+        color: rgb(255, 255, 255);
+        text-align:center;
+        line-height: 5px;
+    }
+    h5{
+        color:rgb(250, 0, 0);
+        text-align: center;
+        font-size: 15px;
+        line-height: 20px;
+        font-family: 'JetBrains Mono';
+    }
+    footer{
+        border-style: solid;
+        background-color: rgba(27, 27, 27, 0.65);
+        border-radius: 10px;
+        padding: 10px;
+        width: 800px;
+        height: 100px;
+        border-style: hidden;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 1px;
+        border-spacing: 20px;
+        margin: auto;
+        text-decoration: none;
+    }
+    html {
+        background-color: #00f7ff;
+        background: #94d7db;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+      
+    }
+    i{
+    font-family: 'JetBrains Mono';
+    }
+}

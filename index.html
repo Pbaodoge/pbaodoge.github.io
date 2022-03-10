@@ -9,17 +9,26 @@
               <meta name="referrer" content="no-referrer">
               <title>Pbaodoge | Siesta (Home Page)</title>
               <link rel = "stylesheet" href = "styles.css">
-
-              <meta name="description" content="Hi there! This is my official website from a young programmer, Pbaodoge. Check out my website to find more informations about me.!">
+              
+              <!--SEO-->
+              <meta name="description" content="Hi there! This is my official website from a young programmer, Pbaodoge. Check out my website to find more informations about me!">
               <meta name="author" content="Pbaodoge | Siesta">
               <meta name="keywords" content="Pbaodoge, Siesta, pbaodoge, siesta, pbaodoge.ml, pbaodoge-siesta.ml, pbaodoge.github.io">
               <meta property="og:title" content="Pbaodoge | Siesta (Home Page)">
-              <meta property="og:description" content="Hi there! This is my official website from a young programmer, Pbaodoge. Check out my website to find more informations about me.">
+              <meta property="og:description" content="Hi there! This is my official website from a young programmer, Pbaodoge. Check out my website to find more informations about me1">
               <meta property="og:url" content="https://pbaodoge-siesta.ml">
               <meta property="og:locale" content="en_US">
               <meta property="og:type" content="website">
               <meta property="og:site_name" content="pbaodoge-siesta.ml">
               <meta content = "#00FFFF" data-react-helmet="true" name="theme-color">
+              
+              <!--Twitter-->
+              <meta name="twitter:site" content="@Pbaodoge">
+              <meta name="twitter:creator" content="@Pbaodoge">
+              <meta name="twitter:title" content="Pbaodoge | Siesta">
+              <meta name="twitter:description" content="Hi there! This is my official website from a young programmer, Pbaodoge. Check out my website to find more informations about me!">
+              <meta name="twitter:card" content="summary_large_image">
+
 
               <!--CSS-->
               <link rel="stylesheet" href="styles.css">
@@ -101,6 +110,15 @@
                       animation: fadeInUp 1s ease calc(3.5s) forwards;
                       text-decoration: none;
                     }
+                     a:hover{
+                           text-decoration: underline !important;
+                    }
+                    .underline{
+                      text-decoration: none;
+                    }
+                    .underline:hover{
+                      text-decoration: underline;
+                    }
               </style>
 
     </head>
@@ -108,15 +126,17 @@
      <body>
       <div class = "text">
         <div class = "nav-bar-ani"style = " text-align: left; font-size: 30px; font-family: 'JetBrains Mono'; padding-left: 7%; padding-top: 5%;">
-              <ul>
-                     <li style = "display: inline;"><a style = "text-decoration: none; color:rgb(0, 200, 126);" href = "index.html">Home Page </a></li>
-                     <li style = "display: inline;"><a style = "text-decoration: none; color:black;" href = "donate.html"> Donate</a></li>
-              </ul>
+            
+                  <ul>
+                          <li style = "display: inline; "><a style = "text-decoration: none; color:rgb(0, 200, 126);" href = "index.html">Home Page</a></li>
+                          <li style = "display: inline;"><a style = "margin-left: 50px; text-decoration: none; color:black;" href = "donate.html">Donate</a></li>
+                  </ul>
+            
         </div>
 
 
       
-        <h1 class = "welcome-text" style = "text-align: center;">Hi there!</h1><br>
+        <h1 class = "welcome-text" style = "text-align: center; font-family: 'JetBrains Mono';">Hi there!</h1><br>
 
               <b><p class = "description" id = "introduction" ><br>I'm Phan Bảo, also known as Pbaodoge on social media. 
               I'm a young programmer and I have been around tech and coding stuff for 6 months.
@@ -132,7 +152,7 @@
                         <div class = "typetext"><h2>General Information</h2></div>
                                      <li><h4 style = "color: rgb(0, 60, 255);">Name : Phan Bảo</h4></li>
                                      <li><h4 style = "color: rgb(0, 60, 255);">Nickname : Pbaodoge or you can call me Siesta!</h4></li>
-                                     <li><h4 style = "color: rgb(0, 60, 255);">Age : 13</h4></li>
+                                     <li><h4 style = "color: rgb(0, 60, 255);">Age : 14</h4></li>
                                      <li><h4 style = "color: rgb(0, 60, 255);">Job : Just a Vietnamese student</h4></li>
                         </div>
                     </ul>
@@ -140,20 +160,20 @@
           <div class = "total-view">  
             <div style = "font-family: 'JetBrains Mono';">  
               <ul id = "tools">
-                  <h2 style="color: rgb(105, 255, 100);">Programming Languages : </h2>
+                  <h2 style="color: rgb(105, 255, 100);">Programming Languages: </h2>
                     
-                  <button class = "button tools"><a href = "http://www.cplusplus.org/" target="_blank"><li><img src = "./img/C++.png" alt = "C++ logo" width = "60" height = "60"><h5>C++<h5></li></a></button>
-                  <button class = "button tools"><a href = "https://python.org" target="_blank"><li><img src = "./img/python.png" alt = "Python logo" width = "60" height = "60"><h5>Python</h5></li></a></button>
-                  <button class = "button tools"><a href = "https://www.arduino.cc" target="_blank"><li><img src = "./img/arduino.png" alt = "Arduino logo" width = "60" height = "60"><h5>Arduino</h5></li></a></button>
-                  <button class = "button tools"><a href = "https://javascript.com" target="_blank"><li><img src = "./img/JavaScript-logo.png" alt = "JavaScript logo" width = "60" height = "60"><h5>JavaScript</h5></li></a></button>
-                  <button class = "button tools"><a href = "https://en.wikipedia.org/wiki/Pascal" target="_blank"><li><img src = "./img/pascal.png" alt = "Pascal logo" width = "60" height = "60"><h5>Pascal</h5></li></a></button>
-                  <button class = "button tools"><a href = "https://en.wikipedia.org/wiki/HTML" target="_blank"><li><img src = "./img/htmllogo.png" alt = "HTML logo" width = "60" height = "60"><h5>HTML</h5></li></a></button>
-                  <button class = "button tools"><a href = "https://en.wikipedia.org/wiki/CSS" target="_blank"><li><img src = "./img/css.png" alt = "CSS logo" width = "60" height = "60"><h5>CSS</h5></li></a></button>
+                  <button class = "button tools"><a href = "http://www.cplusplus.org/" target="_blank"><li><img src = "./img/C++.png" alt = "C++ logo" width = "60" height = "60"></li></a></button>
+                  <button class = "button tools"><a href = "https://python.org" target="_blank"><li><img src = "./img/python.png" alt = "Python logo" width = "60" height = "60"></li></a></button>
+                  <button class = "button tools"><a href = "https://www.arduino.cc" target="_blank"><li><img src = "./img/arduino.png" alt = "Arduino logo" width = "60" height = "60"></li></a></button>
+                  <button class = "button tools"><a href = "https://javascript.com" target="_blank"><li><img src = "./img/JavaScript-logo.png" alt = "JavaScript logo" width = "60" height = "60"></li></a></button>
+                  <button class = "button tools"><a href = "https://en.wikipedia.org/wiki/Pascal" target="_blank"><li><img src = "./img/pascal.png" alt = "Pascal logo" width = "60" height = "60"></li></a></button>
+                  <button class = "button tools"><a href = "https://en.wikipedia.org/wiki/HTML" target="_blank"><li><img src = "./img/htmllogo.png" alt = "HTML logo" width = "60" height = "60"></li></a></button>
+                  <button class = "button tools"><a href = "https://en.wikipedia.org/wiki/CSS" target="_blank"><li><img src = "./img/css.png" alt = "CSS logo" width = "60" height = "60"></li></a></button>
                     
                 </ul>    
                   
-          <ul id = "tools" style = "width: 1200px; height: 200px;">
-                <h2 style="color: rgb(105, 255, 100);">Tools that I used : </h2>
+          <ul id = "tools" style = "width: 1080px; height: 200px;">
+                <h2 style="color: rgb(105, 255, 100);">Tools that I used: </h2>
                 <img src = "./img/vscode.png" alt = "VS code logo" width = "40" height = "40"> <button class = "button tools"><li><a href = "https://code.visualstudio.com" target="_blank"><h5> Visual Studio Code </h5></a></h5></li></button>
                 <img src = "./img/unity.png" alt = "Unity logo" width = "40" height = "40"><button class = "button tools"><li><a href = "https://unity.com" target="_blank"><h5> Unity </h5></a></h5></li></button>
                 <img src = "./img/arduinoide.png" alt = "Arduino IDE logo" width = "40" height = "40"><button class = "button tools"><li><a href = "https://www.arduino.cc/en/software" target="_blank"><h5> Arduino IDE </h5></a></h5></li></button>
@@ -163,25 +183,31 @@
 
           </ul>
         
-          <ol id = "border" style= "height: 400px;">
-            <h2 style="color: rgb(105, 255, 100); padding-top: 3%;">Projects : </h2>
-            <br><button class = "button social"><li><a href = "https://github.com/Pbaodoge/pbaodoge.github.io" target="_blank"><h5>This Website</h5></a></li></button>
+          <ol id = "border" style= "height: 680px;">
+            <h2 style="color: rgb(105, 255, 100); padding-top: 3%;">Projects: </h2>
+            <button class = "button social"><li><a href = "https://github.com/Pbaodoge/pbaodoge.github.io" target="_blank"><h5>This Website</h5></a></li></button>
             <br><button class = "button social"><li><a href = "https://github.com/Pbaodoge/RGB-Arduino" target="_blank"><h5>RGB led projects with Arduino (Open-source)</h5></a></li></button>
-            <br><button class = "button social"><li><a href = "https://arduinoexchange.xyz" target = "_blank"><h5>Arduino Exchange Website Project</h5></a></li></button>
+            <br><button class = "button social"><li><a href = "https://arduinoexchange.xyz" target = "_blank"><h5>Arduino Exchange Website</h5></a></li></button>
+            <h2 style="color: rgb(105, 255, 100); padding-top: 3%;">In development and planning projects: </h2>
+            <br><button class = "button tools"><li><a href = "https://discord.gg/AjntAZKt4V" target = "_blank"><h5>Siesta Discord Bot: A discord bot for Anime purposes!</h5></a></li></button>
+            <br><button class = "button tools"><li><a href = "https://arduinoexchange.xyz" target = "_blank"><h5>An account system for Arduino Exchange website</h5></a></li></button>
+            <br><button class = "button tools"><li><h5>A media player software I think :)))</h5></li></button>
+            
 
           </ol>
-               <br><br><br><br><br><br>
-                <ul id = "border" style = "height: 400px; padding-top: 1%;">
-                          <h2 style="color: rgb(105, 255, 100);">Social media links : </h2>
-                          <br><button class = "button social"><li><a href = "https://discordapp.com/users/826651517960454144" target="_blank"><h5><i class="fab fa-twitter"></i> Connected to Discord : Pbaodoge#4418</h5></a></h5></li></button>
-                          <br><button class = "button social"><li><a href = "https://www.reddit.com/user/Pbaodoge" target="_blank"><h5><i class="fab fa-reddit"></i> Connected to Reddit : Pbaodoge</h5></a></li></button>
-                          <br><button class = "button social"><li><a href = "https://github.com/Pbaodoge" target="_blank"><h5><i class="fab fa-github"></i> Connected to Github : Pbaodoge</h5></a></li></button>
+               <br><br><br><br>
+                <ul id = "border" style = "height: 450px; padding-top: 1%;">
+                          <h2 style="color: rgb(105, 255, 100);">Social media links: </h2>
+                          <br><button class = "button social"><li><a href = "https://discordapp.com/users/826651517960454144" target="_blank"><h5><i class="fab fa-discord"></i> Connected to Discord : Pbaodoge#4418</h5></a></h5></li></button>
+                          <br><button class = "button social"><li><a href = "https://www.reddit.com/user/Pbaodoge" target="_blank"><h5><i class="fab fa-reddit"></i> Connected to Reddit : @Pbaodoge</h5></a></li></button>
+                          <br><button class = "button social"><li><a href = "https://github.com/Pbaodoge" target="_blank"><h5><i class="fab fa-github"></i> Connected to Github : @Pbaodoge</h5></a></li></button>
+                          <br><button class = "button social"><li><a href = "https://twitter.com/Pbaodoge" target="_blank"><h5><i class="fab fa-twitter"></i> Connected to Twitter : @Pbaodoge</h5></a></li></button>
     
                 </ul>
             </div>
               <footer>
            
-                   <h4 class="footer-color">Made by Pbaodoge / Siesta - 2021 - 2022 | Version : v2.2</h4>
+                   <h4 class="footer-color">Made by Pbaodoge / Siesta - 2021 - 2022 | Version: v2.2</h4>
                     <h4 class="footer-color" style="margin-top: 1.5rem;">This website is powered by 
                       <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer" style="color: white; text-decoration: none;"><abbr style = "text-decoration: none;"title="Opens in a new tab.">Github Pages, </abbr></a>
                         <a href="https://freenom.com" target="_blank" rel="noopener noreferrer" style="color: white; text-decoration: none;">
@@ -194,7 +220,7 @@
       </div>
 
             <!--Prevent using http protocol-->
-            <script src = "functions.js" type = "text/javascript" onload = "preventhttp()"></script>
+            <!--<script src = "functions.js" type = "text/javascript" onload = "preventhttp()"></script>-->
 
     </body>
 
