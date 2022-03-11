@@ -5,7 +5,6 @@
 
 # Issues
 >Some issues that is currently being fixed 
-* Viewing through small screens still sucks
 * A better background for small screens
 
 
