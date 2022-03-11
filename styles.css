@@ -52,19 +52,6 @@
       typing 1.4s steps(19) 1s forwards,
       blink-caret 0.75s step-end infinite;
   }
-  /*not using this at the moment
-  .typetext h1{
-    overflow: hidden; 
-    border-right: .2em solid white;
-    color: rgb(0, 0, 0);
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 0.07px;
-    animation: 
-      typinghi 1.4s steps(9) 1s forwards,
-      blink-caret 0.75s step-end infinite;
-  }
-  */
   /* The typing effect */
   @keyframes typing {
     from { 
@@ -137,7 +124,7 @@
       background-color: rgba(27, 27, 27, 0.65);
       border-radius: 10px;
       padding: 10px;
-      width: 800px;
+      width: 650px;
       height: 100px;
       border-style: hidden;
       border-radius: 10px;
@@ -210,7 +197,7 @@ li{
 
 
     /*CSS FOR NON-DESKTOP DEVICES*/ 
-    @media only screen and (max-width: 800px){
+    @media only screen and (max-width: 680px){
       li{
           font-size: 18px;
       }
