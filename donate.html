@@ -35,9 +35,20 @@
                   .text{
                       text-decoration: none;
                   }
-                  a:hover{
-                           text-decoration: underline !important;
-                    }
+                  a{
+                        color: rgb(174, 0, 255);
+                        text-decoration: none !important;
+                        background-image: linear-gradient(#74f7fc, #72ecec) !important;
+                        background-size: 0% 0.1em !important;
+                        background-position-y: 100% !important;
+                        background-position-x: 100% !important;
+                        background-repeat: no-repeat !important;
+                        transition: background-size 0.2s ease-in-out !important;
+                      }
+                        a:hover,a:focus,a:active {
+                            background-size: 100% 0.1em !important;
+                            background-position-x: 0% !important;
+                      }
 
               </style>
 
@@ -83,7 +94,7 @@
         </div>
           
           <!--Prevent using http protocol-->
-          <!--<script src = "functions.js" type = "text/javascript" onload = "preventhttp()"></script>-->
+          <script src = "functions.js" type = "text/javascript" onload = "preventhttp()"></script>
           </body>
 
 

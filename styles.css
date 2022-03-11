@@ -148,6 +148,7 @@
 i{
   font-family: 'JetBrains Mono';
 }
+
 ::selection{
   color:cyan;
   background-color: #c5c5c507;
@@ -162,11 +163,10 @@ i{
   to {
  opacity: 1;
  transform: translateY(0);
+  }
 }
-}
-a{
-  text-decoration: none;
-}
+
+
 li{
   list-style-type: none;
 }
@@ -197,7 +197,7 @@ li{
 
 
     /*CSS FOR NON-DESKTOP DEVICES*/ 
-    @media only screen and (max-width: 680px){
+    @media only screen and (max-width: 750px){
       li{
           font-size: 18px;
       }
