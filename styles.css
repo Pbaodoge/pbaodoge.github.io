@@ -108,7 +108,7 @@
       text-align: left;
   }
   h4{
-      color: rgb(0, 60, 255);
+      color: rgb(0, 60, 255) !important;
       text-align:center;
       line-height: 13px;
   }
