@@ -108,9 +108,9 @@
       text-align: left;
   }
   h4{
-      color: rgb(255, 255, 255);
+      color: rgb(0, 60, 255);
       text-align:center;
-      line-height: 20px;
+      line-height: 13px;
   }
   h5{
       color:rgb(250, 0, 0);
@@ -225,9 +225,9 @@ li{
         text-align: left;
     }
     h4{
-        color: rgb(255, 255, 255);
+        color: rgb(0, 60, 255);
         text-align:center;
-        line-height: 25px;
+        line-height: 13px;
         font-size: 13.5px;
     }
     h5{
