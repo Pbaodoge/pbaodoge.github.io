@@ -1,4 +1,4 @@
-# pbaodoge.github.io | Version : v2.1
+# pbaodoge.github.io | Version : v2.5
 >This website is still in development
 * Domains are : https://pbaodoge.ml | https://pbaodoge-siesta.ml Since I got 2 more domains on [Freenom.](https://freenom.com)
 
