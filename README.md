@@ -1,11 +1,10 @@
-# pbaodoge.github.io | Version : v2.1
+# pbaodoge.github.io | Version : v2.5
 >This website is still in development
 * Domains are : https://pbaodoge.ml | https://pbaodoge-siesta.ml Since I got 2 more domains on [Freenom.](https://freenom.com)
 
 
 # Issues
 >Some issues that is currently being fixed 
-* Viewing through small screens still sucks
 * A better background for small screens
 
 
