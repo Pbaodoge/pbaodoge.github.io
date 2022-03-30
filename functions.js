@@ -1,4 +1,4 @@
 function preventhttp(){
     if(location.protocol == "http:") 
-         location.replace(`https://${window.location.href}`);
+         location.replace(`${window.location.href}`);
 }
