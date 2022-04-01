@@ -7,6 +7,6 @@ function rickroll(){
         window.open(`https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley`);
     setTimeout(() => {  
         location.replace(`https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley`); 
-    }, 7000);
+    }, 3500);
          
 }
