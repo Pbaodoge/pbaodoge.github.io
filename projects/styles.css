@@ -1,0 +1,326 @@
+.button {
+    background-color: none; 
+    border: none;
+    padding: 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px 10px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 0px;
+    
+  }
+     
+    .projects{
+         background-color: rgba(255, 255, 255, 0.2);
+         border-radius: 5px;
+    }
+  
+    .projects:hover{
+         background-color: rgba(140, 118, 118, 0.3);
+         border-radius: 28px;
+    }
+  
+    .social{
+         background-color: rgba(255, 255, 255, 0.2);
+         border-radius: 5px;
+    }
+  
+    .social:hover{
+         background-color: rgba(0, 255, 255, 0.3);
+         border-radius: 28px;
+    }
+    .tools{
+         background-color: rgba(255, 255, 255, 0.2);
+         border-radius: 5px;
+    }
+    .tools:hover{
+      background-color: rgba(255, 0, 0, 0.3);
+      border-radius: 25px;
+  }
+  .typetext h2 {
+    overflow: hidden; 
+    border-right: .25em solid white;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.07px;
+    font-size: 22px;
+    text-align: left;
+    animation: 
+      typing 1.4s steps(19) 1s forwards,
+      blink-caret 0.75s step-end infinite;
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from { 
+        width: 0; 
+    }
+    to {
+        width: 35%;
+    }
+  }
+  @keyframes typinghi {
+    from { 
+        width: 0; 
+    }
+    to {
+        width: 25%;
+    }
+  }
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 255, 255); }
+  }
+  .footer-color{
+    animation-name: ani;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes ani{
+      0% {color: rgb(255, 0, 255);}
+      20%  {color: rgb(255, 0, 0);}
+      40%  {color: rgb(255, 238, 0);}
+      60% {color: rgb(37, 255, 8);}
+      80% {color: rgb(0, 255, 255);}
+      100% {color: rgb(0, 4, 255);}
+  }
+  b{
+      color:black;
+  }
+  
+  h1{
+     color: #000000;
+     text-align: center;
+     font-size: 40px;
+     
+  }
+  h2{
+      color: black;
+      text-align: left;
+      font-size: 22px;
+  }
+  h3{
+      color: #00fff2;
+      text-align: left;
+  }
+  h4{
+      color: rgb(0, 60, 255) !important;
+      text-align:center;
+      line-height: 13px;
+  }
+  h5{
+      color:rgb(250, 0, 0);
+      text-align: center;
+      font-size: 15px;
+      line-height: 20px;
+      font-family: 'JetBrains Mono';
+  }
+  footer{
+      border-style: solid;
+      background-color: rgba(27, 27, 27, 0.65);
+      border-radius: 10px;
+      padding: 10px;
+      width: 650px;
+      height: 120px;
+      border-style: hidden;
+      border-radius: 10px;
+      text-align: center;
+      line-height: 1px;
+      border-spacing: 20px;
+      margin: auto;
+      text-decoration: none;
+  }
+  html {
+      background-color: #00f7ff;
+      background: url("theme.jpg") no-repeat
+      center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      font-family: Arial, Helvetica, sans-serif;
+    
+  }
+i{
+  font-family: 'JetBrains Mono';
+}
+
+::selection{
+  color:cyan;
+  background-color: #c5c5c507;
+}
+.nav-bar-ani{
+  color: hsl(0 0% 0% / .7);
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 1s ease calc(.5s) forwards;
+}
+@keyframes fadeInUp {
+  to {
+ opacity: 1;
+ transform: translateY(0);
+  }
+}
+
+
+li{
+  list-style-type: none;
+}
+     /*---------------------------SCROLL BAR-------------------------*/
+     /* width */
+     ::-webkit-scrollbar {
+      width: 10px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      border-radius: 8px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: rgba(0, 255, 136, 0.75); 
+      border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(153, 223, 223, 0.9); 
+    }
+    /*--------------------------END OF SCROLL BAR-------------------*/
+
+
+
+    /*CSS FOR NON-DESKTOP DEVICES*/ 
+    @media only screen and (max-width: 750px){
+      li{
+          font-size: 18px;
+      }
+
+      p{
+        font-size: 16px !important;
+      }
+
+      b{
+        color:black;
+    }
+    
+    h1{
+       color: #000000;
+       text-align: center !important;
+       font-size: 23px;
+       
+    }
+    h2{
+        color: black;
+        text-align: center !important;
+        font-size: 15px !important;
+    }
+    h3{
+        color: #00fff2;
+        text-align: left;
+    }
+    h4{
+        color: rgb(0, 60, 255);
+        text-align:center;
+        line-height: 13px;
+        font-size: 13.5px;
+    }
+    h5{
+        color:rgb(250, 0, 0);
+        text-align: center;
+        font-size: 15px;
+        line-height: 20px;
+        font-family: 'JetBrains Mono';
+    }
+    footer{
+        border-style: solid;
+        background-color: rgba(27, 27, 27, 0.65);
+        border-radius: 10px;
+        padding: 10px;
+        width: 600px;
+        height: 120px;
+        border-style: hidden;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 5px !important;
+        border-spacing: 20px;
+        margin: auto;
+        text-decoration: none;
+    }
+    html {
+        background-color: #00f7ff;
+        background: #ecd982;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+      
+    }
+    i{
+    font-family: 'JetBrains Mono';
+    }
+
+    #border{
+      border-style: solid;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 10px;
+      width: 500px;
+      height: 250px;
+      border-style: hidden;
+      border-radius: 10px;
+      text-align: center;
+      border-spacing: 20px;
+
+    }
+    #introduction{
+      border-style: solid;
+      background-color: rgba(255, 152, 152, 0.5);
+      border-radius: 15px;
+      border: 0px;
+      box-sizing: border-box;
+      padding: 30px;
+      width: 600px !important;
+      height: 160px !important;
+      position: relative;
+      text-align: center;
+      font-size: 15px !important;
+    }
+    #tools{
+      border-style: solid;
+      background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 10px;
+      padding: 10px;
+      width: 600px !important;
+      height: 200px;
+      border-style: hidden;
+      border-radius: 10px;
+      text-align: center;
+      margin: auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .text a{
+      text-decoration: none;
+      list-style-type: none;
+    }
+    .text li{
+      text-decoration: none;
+      list-style-type: none;
+    }
+     a:hover{
+           text-decoration: underline !important;
+    }
+    .underline{
+      text-decoration: none;
+    }
+    .underline:hover{
+      text-decoration: underline;
+    }
+    /*END OF CSS FOR NON-DESKTOP DEVICES*/ 
+}
