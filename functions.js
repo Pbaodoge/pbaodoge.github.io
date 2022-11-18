@@ -6,10 +6,10 @@ function rickroll(){
     setTimeout(() => {  
         setTimeout(() =>{
             location.replace(`https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley`);
-        }, 3000);
+        }, 15000);
         setTimeout(() =>{
             window.open(`https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley`);
-        }, 3000);
+        }, 15000);
         
     }, 1000);
          
