@@ -1,5 +1,5 @@
 function preventhttp(){
-    window.location.href = "https://youtu.be/zTfIr2_XVrc";
+    //window.location.href = "https://youtu.be/zTfIr2_XVrc";
     if(location.protocol == "http:") 
          location.replace(`https://${location.hostname}${location.pathname}`);
 }
